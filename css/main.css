@@ -1,0 +1,12 @@
+body {
+    font-family: "Century Gothic","Avant Garde Gothic","Avant Garde","URW Gothic L",helvetica,sans-serif;
+    font-size: 16px;
+    background-color: #29569B;
+    color: #29569B;
+}
+.header, .main {
+    width: 900px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin: 10px auto;
+}
