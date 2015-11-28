@@ -1,8 +1,8 @@
 body {
     font-family: "Century Gothic","Avant Garde Gothic","Avant Garde","URW Gothic L",helvetica,sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     background-color: #29569B;
-    color: #29569B;
+    /*color: #29569B;*/
 }
 .header, .main {
     width: 900px;
@@ -23,6 +23,29 @@ h1, h2, h3, h4, h5 {
     margin: 0;
     font-family: "Century Gothic","Avant Garde Gothic","Avant Garde","URW Gothic L",helvetica,sans-serif;
     font-weight: normal;
+}
+.nav {
+    float: right;
+}
+.nav ul {
+    padding: 0;
+}
+.nav ul li {
+    list-style-type: none;
+    float: left;
+}
+.nav a {
+    font-family: "Century Gothic","Avant Garde Gothic","Avant Garde","URW Gothic L",helvetica,sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    display: block;
+    padding: 1px 10px;
+    border: 1px solid #29569B;
+    margin: 1px 2px;
+}
+.nav a:hover {
+    background-color: #29569B;
+    color: #FFFFFF;
 }
 ol li {
     padding: 5px 0;
