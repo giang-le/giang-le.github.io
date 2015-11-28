@@ -1,7 +1,8 @@
 body {
     font-family: "Century Gothic","Avant Garde Gothic","Avant Garde","URW Gothic L",helvetica,sans-serif;
     font-size: 15px;
-    background-color: #29569B;
+    /*background-color: #29569B;*/
+    /*background-color: #29569B;*/
     /*color: #29569B;*/
 }
 .header, .main {
@@ -11,7 +12,8 @@ body {
     margin: 10px auto;
 }
 a {
-    color: #29569B;
+    /*color: #29569B;*/
+    color: #C9302C;
     text-decoration: none;
     border-bottom: 1px dotted;
 }
@@ -40,11 +42,15 @@ h1, h2, h3, h4, h5 {
     text-decoration: none;
     display: block;
     padding: 1px 10px;
-    border: 1px solid #29569B;
+    /*border: 1px solid #29569B;*/
+    /*border: 1px solid #C9302C;*/
+    border: 1px solid #bbb;
+    color: grey;
     margin: 1px 2px;
 }
-.nav a:hover {
-    background-color: #29569B;
+a:hover {
+    /*background-color: #29569B;*/
+    background-color: #C9302C;
     color: #FFFFFF;
 }
 ol li {
@@ -55,4 +61,19 @@ ol {
 }
 h3 {
     margin-top: 20px;
+}
+
+div.shadow {
+    border: 1px solid #ccc;
+    box-shadow: 0 0 24px #bbb;
+    background: #fff;
+    /*color: #666;*/
+}
+
+i.fa {
+    color: #C9302C;
+}
+
+a:hover i.fa {
+    color: #FFFFFF;
 }
