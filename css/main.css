@@ -2,7 +2,6 @@ body {
     font-family: "Century Gothic","Avant Garde Gothic","Avant Garde","URW Gothic L",helvetica,sans-serif;
     font-size: 15px;
     /*background-color: #29569B;*/
-    /*background-color: #29569B;*/
     /*color: #29569B;*/
 }
 .header, .main {
@@ -44,7 +43,7 @@ h1, h2, h3, h4, h5 {
     padding: 1px 10px;
     /*border: 1px solid #29569B;*/
     /*border: 1px solid #C9302C;*/
-    border: 1px solid #bbb;
+    border: 1px dotted #C9302C;
     color: grey;
     margin: 1px 2px;
 }
@@ -77,3 +76,17 @@ i.fa {
 a:hover i.fa {
     color: #FFFFFF;
 }
+
+/*.osu-logo {*/
+    /*display: inline-block;*/
+    /*text-indent: -9999px;*/
+    /*width: 20px;*/
+    /*height: 20px;*/
+    /*background: url("../images/osu-logo.svg");*/
+    /*background-size: 20px 20px;*/
+    /*color: #C9302C;*/
+/*}*/
+
+/*a:hover .osu-logo {*/
+    /*color: #FFFFFF;*/
+/*}*/
