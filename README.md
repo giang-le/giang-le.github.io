@@ -1,2 +1,1 @@
-# giang-le.github.io
-Giang's Home Page
+[Giang's Home Page](https://giang-le.github.io)
